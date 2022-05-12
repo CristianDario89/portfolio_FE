@@ -1,5 +1,102 @@
-<p>jsajhsa</p>
-<p>fdfdf</p>
+    
+<div class="card mat-card" id="first-card">
+    <div id="profile-background"><img src="fondo.jpg" alt=""></div>
+    
+    <div id="info">
 
-<p>jsajhsa</p>
-<p>fdfdf</p>
+        <div id="info-img">
+            <img class="profile-img" src="p1.jpeg">
+            <div id="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+        </div>
+
+        <div id="info-data">
+
+            <div>
+                <div class="nombre-completo">
+                    <p id="Nombre">Cristian</p><p id="Apellido">Romero</p>
+                </div>
+               
+                <div id="info-company">Freelancer</div>
+
+                <div id="info-contact">
+                    <span>Buenos Aires, Argentina</span>
+                    <span><a href="#">Info de contacto</a></span>
+                </div>
+            </div>
+
+         
+    <!--   <ul id="info-details">
+                <li><a href="#">
+                    <img src="" alt="">
+                    <p>Programador full stack Jr</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="" alt="">
+                    <p>Juan XXIII - Técnico en informaática</p>
+                </a></li>
+            </ul>-->
+        </div>
+
+        <div id="info-actions">
+            <button type="button" class="btn btn-primary">Tengo interés en</button>
+            <button type="button" class="btn btn-light">Añadir sección</button>
+            <button type="button" class="btn btn-light">Más</button>
+        </div>
+
+    </div>
+
+</div>
+<!-- <input type="file" id="file1" onchange="showFile1(this)"> -->
+<div class="card mat-card" id="card-acercade">
+
+    <div class="card-titles">
+        <h2>Acerca de</h2>
+        <div class="btn-edit" onclick="cambiar_parrafo()">
+            <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+        </div>
+    </div>
+
+    <div>
+        <p id="text-acercade">Programador full stack jr, trilingue, sobresaliente jugador de truco, fútbol, ping-pong, PES, y gran conductor de motos</p>
+    </div>
+
+    <input type="text" id="edit-acercade" oninput="myFunction2(this.value)" style="display:none">
+
+</div>
+
+<div class="card mat-card" id="card-experiencia">
+
+    <div class="card-titles">
+        <h2>Educación</h2>
+        <div class="btn-edit" onclick="cambiar_parrafo()">
+            <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
+        </div>
+    </div>
+
+    <ul class="items-list">
+       <li>
+        <div class="data-container">
+          
+                <div class="logo-image-container">
+                    <img class="logo-image" src="logojuan.jpg">
+                </div>
+                <div class="list-info">
+                  <div>
+                     <h3>Juan XXIII</h3>
+                     <p>Tecnico en informatica personal y profesional</p>
+                     <p><time>2002</time> - <time>2005</time></p>
+                  </div>
+                </div>
+                <div class="data-control">
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                    </div>
+                </div>
+             
+        </div>
+       </li>
+    </ul>
+
+    <input type="text" id="edit-acercade" oninput="myFunction2(this.value)" style="display:none">
+
+</div>
