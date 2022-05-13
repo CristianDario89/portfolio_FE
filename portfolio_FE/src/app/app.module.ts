@@ -7,6 +7,7 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { AcercadeComponent } from './componentes/acercade/acercade.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

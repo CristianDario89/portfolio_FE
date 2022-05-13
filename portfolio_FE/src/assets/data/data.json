@@ -1,0 +1,23 @@
+{
+    "name": "Cristian Romero",
+    "backImage": "./assets/img/fondo.jpg",
+    "image": "./assets/img/p1.jpeg",
+    "position": "Programador freelancer",
+
+    "educacion":[{
+        "institucion":"Juan XXIII",
+        "title":"Juan XXIII",
+        "img":"./assets/img/logoedu1.jpg",
+        "start":"2002",
+        "end":"2005"
+    },
+    {
+        "institucion":"UDEMY ACADEMY",
+        "title":"Master en Javascript",
+        "img":"./assets/img/logoedu2.png",
+        "start":"Ago 2020",
+        "end":"Nov 2020"
+    }
+    ]
+
+}

@@ -8,17 +8,17 @@
     </div>
 
     <ul class="items-list">
-       <li>
+       <li *ngFor="let educacion of educacionList">
         <div class="data-container">
           
                 <div class="logo-image-container">
-                    <img class="logo-image" src="logojuan.jpg">
+                    <img class="logo-image" [src]="educacion.img">
                 </div>
                 <div class="list-info">
                   <div>
-                     <h3>Juan XXIII</h3>
-                     <p>Tecnico en informatica personal y profesional</p>
-                     <p><time>2002</time> - <time>2005</time></p>
+                     <h3>{{educacion.institucion}}</h3>
+                     <p>{{educacion.title}}</p>
+                     <p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
                   </div>
                 </div>
                 <div class="data-control">
