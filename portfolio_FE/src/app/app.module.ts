@@ -8,12 +8,14 @@ import { AcercadeComponent } from './componentes/acercade/acercade.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     AcercadeComponent,
-    EducacionComponent
+    EducacionComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,

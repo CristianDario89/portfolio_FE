@@ -17,6 +17,37 @@
         "img":"./assets/img/logoedu2.png",
         "start":"Ago 2020",
         "end":"Nov 2020"
+    },
+    {
+        "institucion":"Google analytic Academy",
+        "title":"Google analytic para principiantes",
+        "img":"./assets/img/logogoogle.png",
+        "start":"Jun 2020",
+        "end":"Sep 2020"
+    }
+    ],
+
+    
+    "experiencia":[{
+        "institucion":"Diseñador web",
+        "title":"Freelancer",
+        "img":"./assets/img/logoexp11.png.crdownload",
+        "start":"2016",
+        "end":"2018"
+    },
+    {
+        "institucion":"Backend developer",
+        "title":"Freelancer",
+        "img":"./assets/img/logoexp2.webp",
+        "start":"Ago 2017",
+        "end":"Oct 2019"
+    },
+    {
+        "institucion":"Frontend developer",
+        "title":"Freelancer",
+        "img":"./assets/img/logoexp333.png",
+        "start":"2019",
+        "end":"2022"
     }
     ]
 

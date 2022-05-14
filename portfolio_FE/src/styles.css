@@ -1,82 +1,94 @@
 .mat-card{
-    border-radius: 32px;
-    margin:10px 10px;
-    border-color: rgb(55, 109, 190);
+  border-radius: 32px;
+  margin:10px 10px;
+  border-color: rgb(55, 109, 190);
 }
 .mat-card#first-card{
-    padding: 0;  
+  padding: 0;  
 }
 
 div#profile-background{
-  display: flex;   
+display: flex;   
 }
 div#profile-background img{
-    width: 100%;height: 400px;
-    border-radius: 32px 32px 0 0;
-  }
-  
+  width: 100%;height: 400px;
+  border-radius: 32px 32px 0 0;
+}
+
 #info-img img{
-   border-radius:50%;
-   width: 152px;height: 152px;
-   margin-top: -110px;
-   z-index:1;  
-   
-  }
+ border-radius:50%;
+ width: 152px;height: 152px;
+ margin-top: -110px;
+ z-index:1;  
+ 
+}
 div#info-actions{
-   display:flex;
+ display:flex;
 }
 
 #info-data{
-      display:flex;
-      justify-content:space-between;
-      
-    }
+    display:flex;
+    justify-content:space-between;
+    
+  }
 ul li{
-        list-style:none;
-    }
-  
+      list-style:none;
+  }
+
 /*-------------------------*/
 .card-titles{
-  display:flex;justify-content:space-between;
+display:flex;justify-content:space-between;
 }
 
 /*-------------*/
 .nombre-completo p{
-  display: inline;
+display: inline;
 }
 
-#card-acercade, #info, #card-experiencia{
-  padding: 20px;
+#card-acercade, #info, #card-experiencia, #card-educacion{
+padding: 20px;
 }
 
 .items-list li .data-container a, .fa-pen{
-  color: black;
-  text-decoration: none;
+color: black;
+text-decoration: none;
 }
 
 .logo-image{
-  width:50px;height:50px;
-   
+width:50px;height:40px;
+margin-top: 5px;
+transform:translateY(-8px);
 }
+
+.special-img{
+width:60px;height:50px;
+transform:translateY(-7px) scale(1.2);
+}
+
 .logo-image-container{
-  text-align: center;
+text-align: center;
 }
 .list-info{ 
-  transform:translateX(-40px)
+transform:translateX(-40px)
 }
 .data-container{
-  display:grid;
-  grid-template-columns: 10% 89% 1%;
+display:grid;
+grid-template-columns: 10% 89% 1%;
 }
- 
+
 @media (max-width:620px){
-  .logo-image{
-    width:30px;height:30px;
-  }
-  .list-info{ 
-    transform:translateX(0px)
-  }
-  .data-container{ 
-    grid-template-columns: 10% 85% 5%;
-  }
+.logo-image{
+  width:40px;height:30px;
+}
+.list-info{ 
+  transform:translateX(10px)
+}
+.data-container{ 
+  grid-template-columns: 10% 85% 5%;
+}
+.special-img{
+  width:60px;height:50px;
+  transform:translateX(-10px) translateY(-7px);
+}
+
 }

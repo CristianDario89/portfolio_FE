@@ -1,0 +1,36 @@
+<div class="card mat-card" id="card-experiencia">
+
+    <div class="card-titles">
+        <h2>Experiencia</h2>
+        <div class="btn-edit" onclick="cambiar_parrafo()">
+            <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
+        </div>
+    </div>
+
+    <ul class="items-list">
+       <li *ngFor="let experiencia of experienciaList">
+        <div class="data-container">
+          
+                <div class="logo-image-container">
+                    <img class="logo-image" [src]="experiencia.img">
+                </div>
+                <div class="list-info">
+                  <div>
+                     <h3>{{experiencia.institucion}}</h3>
+                     <p>{{experiencia.title}}</p>
+                     <p><time>{{experiencia.start}}</time> - <time>{{experiencia.end}}</time></p>
+                  </div>
+                </div>
+                <div class="data-control">
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                    </div>
+                </div>
+             
+        </div>
+       </li>
+    </ul>
+
+    <input type="text" id="edit-acercade" oninput="myFunction2(this.value)" style="display:none">
+
+</div>
