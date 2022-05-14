@@ -45,7 +45,7 @@ ul li{
   display: inline;
 }
 
-#card-acercade, #info, #card-experiencia{
+#card-acercade, #info, #card-experiencia, #card-educacion{
   padding: 20px;
 }
 
@@ -55,9 +55,16 @@ ul li{
 }
 
 .logo-image{
-  width:50px;height:50px;
-   
+  width:50px;height:40px;
+  margin-top: 5px;
+  transform:translateY(-8px);
 }
+
+.special-img{
+  width:60px;height:50px;
+  transform:translateY(-7px) scale(1.2);
+}
+
 .logo-image-container{
   text-align: center;
 }
@@ -71,12 +78,17 @@ ul li{
  
 @media (max-width:620px){
   .logo-image{
-    width:30px;height:30px;
+    width:40px;height:30px;
   }
   .list-info{ 
-    transform:translateX(0px)
+    transform:translateX(10px)
   }
   .data-container{ 
     grid-template-columns: 10% 85% 5%;
   }
+  .special-img{
+    width:60px;height:50px;
+    transform:translateX(-10px) translateY(-7px);
+  }
+ 
 }
