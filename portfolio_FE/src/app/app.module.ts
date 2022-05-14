@@ -9,18 +9,23 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 
 import { HttpClientModule } from '@angular/common/http';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+
+import { NgCircleProgressModule } from 'ng-circle-progress';
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     AcercadeComponent,
     EducacionComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
