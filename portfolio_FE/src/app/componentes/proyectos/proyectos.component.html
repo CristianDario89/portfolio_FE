@@ -2,12 +2,14 @@
     
     <h2 class="m-3">Hard & Soft Skills</h2>  
      <div class="row">
-         <div class="col-sm-4 col-md-4 col-lg-4">
+       
+         <div class="col-sm-4 col-md-4 col-lg-4" *ngFor="let proyecto of proyectoList">
+            <h3 class="text-center">{{proyecto.skill}}</h3>
             <circle-progress
             [percent]="90"
             [radius]="75"
            
-            [imageSrc]="'../assets/front2.png'" 
+            [imageSrc]="proyecto.img" 
             [showImage]="true" 
             [imageHeight]="88"
             [imageWidth]="88"
@@ -22,8 +24,9 @@
             [animationDuration]="300"
         ></circle-progress>
         </div>
-    
+    <!--
         <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center">Front end</h3>
             <circle-progress
             [percent]="90"
             [radius]="75"
@@ -45,6 +48,7 @@
         </div>
     
         <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center">Back end</h3>
             <circle-progress
             [percent]="90"
             [radius]="75"
@@ -66,6 +70,7 @@
         </div>
     
         <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center">Hoisting</h3>
             <circle-progress
             [percent]="90"
             [radius]="75"
@@ -87,6 +92,7 @@
         </div>
     
         <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center">Idiomas x 3</h3>
             <circle-progress
             [percent]="90"
             [radius]="75"
@@ -108,6 +114,7 @@
         </div>
     
         <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center">Conversational skills</h3>
             <circle-progress
             [percent]="90"
             [radius]="75"
@@ -126,7 +133,9 @@
             [animation]="true"
             [animationDuration]="300"
         ></circle-progress>
-        </div>
+        </div> 
+    -->
+       
         
     </div>
 </div> 
