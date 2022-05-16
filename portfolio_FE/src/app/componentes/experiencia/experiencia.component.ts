@@ -1,20 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
+import { experiencia } from 'src/app/model/experiencia.model';
+import { ExperienciaService } from 'src/app/servicios/experiencia.service';
 @Component({
   selector: 'app-experiencia',
   templateUrl: './experiencia.component.html',
   styleUrls: ['./experiencia.component.css']
 })
 export class ExperienciaComponent implements OnInit {
-  experienciaList:any;
-  constructor(private datosPortfolio: PortfolioService) { }
-
-  ngOnInit(): void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.experienciaList=data.experiencia;
-    });
+ experienciaList: any = new experiencia("","","","","");
+  constructor(private expService: ExperienciaService) { }
+  
+    ngOnInit(): void {
+      this.expService.obtenerDatos().subscribe(data =>{
+        console.log("Datos experiencia: "+ JSON.stringify(data));
+        this.experienciaList = data; 
+      });
   }
 
 }
