@@ -29,11 +29,7 @@ div#info-actions{
  display:flex;
 }
 
-#info-data{
-    display:flex;
-    justify-content:space-between;
-    
-  }
+ 
 ul li{
       list-style:none;
   }
@@ -48,7 +44,7 @@ display:flex;justify-content:space-between;
 display: inline;
 }
 
-#card-acercade, #info, #card-experiencia, #card-educacion{
+#card-acercade, #info, #card-experiencia, #card-educacion, #card-skills{
 padding: 20px;
 }
 

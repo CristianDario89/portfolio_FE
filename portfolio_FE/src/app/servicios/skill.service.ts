@@ -1,19 +1,19 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { proyecto } from '../model/proyecto.model';
+import { Skill } from '../model/skill.model';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ProyectoService {
+export class skillservice {
   URL:string="http://localhost:8090/proyecto/"
   constructor(private http:HttpClient) { }
   
 
-  obtenerDatos():Observable<proyecto>{
+  obtenerDatos():Observable<Skill>{
 
-    return this.http.get<proyecto>(this.URL+"traer");
+    return this.http.get<Skill>(this.URL+"traer");
    
   }  
 }

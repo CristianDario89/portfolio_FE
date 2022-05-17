@@ -1,9 +1,9 @@
-<div class="card mat-card" id="card-proyectos">
+<div class="card mat-card" id="card-skills">
     
-    <h2 class="m-3">Hard & Soft Skills</h2>  
+    <h2>Hard & Soft Skills</h2>  
      <div class="row">
        
-         <div class="col-sm-4 col-md-4 col-lg-4" *ngFor="let proyecto of proyectoList">
+         <div class="col-sm-4 col-md-4 col-lg-4" *ngFor="let proyecto of skillList">
             <h3 class="text-center">{{proyecto.skill}}</h3>
             <circle-progress
             [percent]="90"
@@ -139,12 +139,17 @@
         
     </div>
 </div> 
-  
-
-     
-
+   
 <!--
           [titleColor]="'red'"
           [titleFontSize]="'2em'"
           [title]="'HTML'" 
 -->
+ 
+ 
+<div class="wrap-footer">
+    <footer>
+        <p class="p1-footer">Romero Cristian Darío | © Argentina Programa 2022</p>
+        <p class="p2-footer">Buenos Aires, Argentina</p>
+    </footer>
+</div>

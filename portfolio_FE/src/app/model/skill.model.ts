@@ -1,4 +1,4 @@
-export class proyecto{
+export class Skill{
     id?:number;
     skill: String;
     img: String;

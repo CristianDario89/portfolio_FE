@@ -9,7 +9,7 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 
 import { HttpClientModule } from '@angular/common/http';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
-import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { skillsComponent } from './componentes/skills/skills.component';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
 @NgModule({
@@ -19,7 +19,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     AcercadeComponent,
     EducacionComponent,
     ExperienciaComponent,
-    ProyectosComponent
+    skillsComponent
   ],
   imports: [
     BrowserModule,

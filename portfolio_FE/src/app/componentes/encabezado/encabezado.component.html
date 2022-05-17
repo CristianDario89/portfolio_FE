@@ -1,3 +1,14 @@
+<div class="wrap-header">
+    <img src="../../../assets/APLogo.png" alt="" id="logoAP">
+    <div class="icons-header"> 
+        <a href=""><img src="../../../assets/linkedin.png" id="as"></a> 
+        <a href=""><img src="../../../assets/twitter.png" id=""></a> 
+        <a href=""><img src="../../../assets/instagram.png" id=""></a> 
+        <a href=""><img src="../../../assets/github.png" id=""></a> 
+        <a href=""><img src="../../../assets/facebook.png" id=""></a> 
+    </div>
+</div>
+
 <div class="card mat-card" id="first-card">
     <div id="profile-background"><img  [src]="miPortfolio.backImage"></div>
     
@@ -8,21 +19,18 @@
             <div id="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
         </div>
 
-        <div id="info-data">
+    
 
-            <div>
-                <div class="nombre-completo">
-                    <p>{{persona.nombre}} {{persona.apellido}}</p>
-                </div>
-               
-                <div id="info-company">Programador Freelancer</div>
+        <div class="wrap-datos">
+                    <p  class="nombre-completo">{{persona.nombre}} {{persona.apellido}}</p>
+                    <p id="info-company">Programador Freelancer</p>
 
-                <div id="info-contact">
-                    <span>Buenos Aires, Argentina</span>
-                    <span><a href="#">Info de contacto</a></span>
-                </div>
-            </div>
-
+                    <p id="info-contact">
+                        <span>Buenos Aires, Argentina</span>
+                        <span><a href="#">Info de contacto</a></span>
+                    </p>
+            
+        </div>
          
     <!--   <ul id="info-details">
                 <li><a href="#">
@@ -34,7 +42,7 @@
                     <p>Juan XXIII - Técnico en informaática</p>
                 </a></li>
             </ul>-->
-        </div>
+       
 
         <div id="info-actions">
             <button type="button" class="btn btn-primary">Tengo interés en</button>

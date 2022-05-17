@@ -1,0 +1,27 @@
+
+.wrap-header{
+    
+    display: flex;
+align-items: center;
+justify-content: space-between;
+    background-color: #438797;color: white;
+}
+
+.icons-header{ 
+    padding-right: 4px;
+}
+
+.icons-header img{
+    width: 30px;
+    padding-right: 5px;
+    cursor: pointer;
+ 
+}
+#logoAP{
+    width: 120px;
+}
+
+/*-----------*/
+.wrap-datos p{
+line-height: 10px;
+}
