@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Montserrat+Subrayada&display=swap');
 .mat-card{ 
-  margin:10px 10px;
-  border-color: rgb(55, 109, 190);
+  margin:5px 10px;
+   
 }
 
 .mat-card#first-card{
@@ -17,23 +18,23 @@ div#profile-background img{
 #first-card{
   border-radius:10px; 
  }
-
 #info-img img{
  border-radius:50%;
  width: 152px;height: 152px;
  margin-top: -110px;
  z-index:1;  
- 
 }
-div#info-actions{
- display:flex;
-}
+div#info-actions{display:flex; } 
 
- 
-ul li{
-      list-style:none;
-  }
+div#info-actions button{
+  margin-right: 4px; 
+  background-color: #438797;color: white;
+  border-color: #438797;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: -1px;
+ }
 
+ul li{  list-style:none;}
 /*-------------------------*/
 .card-titles{
 display:flex;justify-content:space-between;
@@ -74,7 +75,15 @@ transform:translateX(-40px)
 display:grid;
 grid-template-columns: 10% 89% 1%;
 }
-
+/*--------------------*/
+p{
+  font-family: 'Courier New', Courier, monospace;
+}
+h2{
+ /* font-family: 'Courier Prime', monospace;*/
+ font-family: 'Montserrat Subrayada', sans-serif;
+ font-weight: 700;
+}
 @media (max-width:620px){
 .logo-image{
   width:40px;height:30px;
