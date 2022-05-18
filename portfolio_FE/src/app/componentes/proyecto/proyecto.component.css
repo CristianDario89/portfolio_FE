@@ -25,6 +25,8 @@ p a:hover{
         width: 100%;
         padding: 0 0;
         border: 2px dotted #438797;
+
+        transform: scale(0.85);
     }
   
 }
