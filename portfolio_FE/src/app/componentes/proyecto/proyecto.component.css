@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Montserrat+Alternates:wght@300;400&display=swap');
+p{
+   text-align: justify;  
+}
+ 
+.parte2 img, .parte1 img{
+    height: 300px;
+    width: 100%;
+    padding: 0 150px;
+}
+ p a{
+    text-decoration: none;
+    color:grey;
+    font-style: italic;
+}
+p a:hover{
+     color:red; 
+} 
+.titulo{
+    font-size: 20px;
+}
+@media (max-width:620px){
+    .parte2 img, .parte1 img{
+        height: 300px;
+        width: 100%;
+        padding: 0 0;
+        border: 2px dotted #438797;
+    }
+  
+}
