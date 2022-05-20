@@ -12,6 +12,10 @@ p{
     text-decoration: none;
     color:grey;
     font-style: italic;
+     
+}
+.link-proyecto{
+    line-height:1px;
 }
 p a:hover{
      color:red; 

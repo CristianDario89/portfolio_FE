@@ -1,14 +1,4 @@
-#card-skills{
-     background-color: rgb(253, 222, 222); 
-    border-radius:10px;   
-}
-
-.row div{
-  text-align: center;
-} 
- 
-/*--------------footer----------*/
- 
+  /*--------------footer----------*/
 .wrap-footer{
   background-color:#438797;color:white;
 }
@@ -24,3 +14,23 @@ footer p{
 .p1-footer{
   padding-top: 14px;
 } 
+/*--------------*/
+ 
+  .row div{
+    border-radius:10px;   
+    border:solid  3.5px #438797; 
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    background:hsla(67, 95%, 95%, 1);
+
+    text-align: center;
+    margin-bottom: 10px;
+     
+  } 
+  
+  #card-skills{
+       
+    border:0; 
+    border-radius: 0;
+    background:white;
+  }
+   
