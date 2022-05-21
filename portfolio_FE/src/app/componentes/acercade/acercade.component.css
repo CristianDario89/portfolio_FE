@@ -1,7 +1,12 @@
 #card-acercade{  
-    border:solid  3.5px #438797;
+    border:solid  3.5px black;
     /*border:solid  4px hsla(0, 95%, 35%, 1); */
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-   background:hsla(67, 95%, 95%, 1);
-  }
+   background:linear-gradient(45deg,#22a6b3,#30336b);
+   color:white;
  
+  }
+  #card-acercade div p{  
+    line-height:20px;
+    margin: 0 !important;
+  }

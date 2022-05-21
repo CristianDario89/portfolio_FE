@@ -1,6 +1,23 @@
 <div class="card mat-card" id="card-experiencia">
     <h2>Proyectos realizados</h2>
+
     <div class="row">
+        
+        <div class="col-sm-12 col-md-6 col-lg-6 parte1" *ngFor="let proyecto of proyectoList">
+     
+                <p class="titulo">{{proyecto.nombre}}</p>
+                <p class="link-proyecto"><a [href]="proyecto.end" target="_blank">visitar proyecto</a></p>
+               
+                <div class="p-descripcion"><p>{{proyecto.descripcion}}</p></div> 
+                <div class="col-sm-12 col-md-12 col-lg-12 parte2">
+                    <img [src]="proyecto.img" class="img-fluid">
+                </div>
+     
+        </div>
+    </div>
+
+      <!--
+  <div class="row">
         
         <div class="col-sm-12 col-md-6 col-lg-6 parte1" *ngFor="let proyecto of proyectoList">
      
@@ -11,5 +28,9 @@
     
         </div>
     </div>
+      -->
+  
 </div>
 
+ 
+ 

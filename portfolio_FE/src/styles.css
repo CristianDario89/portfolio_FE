@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Montserrat+Subrayada&display=swap');
+*{
+  margin:0;padding:0;
+  box-sizing: border-box;
+}
+
 .mat-card{ 
   margin:5px 10px;
    
@@ -28,7 +33,8 @@ div#info-actions{display:flex; }
 
 div#info-actions button{
   margin-right: 4px; 
-  background-color: #438797;color: white;
+  background-color: black;
+  color: tomato;
   border-color: #438797;
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: -1px;

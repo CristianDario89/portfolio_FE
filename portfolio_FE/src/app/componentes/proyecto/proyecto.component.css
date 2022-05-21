@@ -23,6 +23,11 @@ p a:hover{
 .titulo{
     font-size: 20px;
 }
+/*------------------------*/
+ .p-descripcion{
+     line-height:18px;
+ }
+  /*---------------*/
 @media (max-width:620px){
     .parte2 img, .parte1 img{
         height: 300px;

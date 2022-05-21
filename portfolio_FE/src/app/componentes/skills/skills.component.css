@@ -1,11 +1,12 @@
   /*--------------footer----------*/
 .wrap-footer{
-  background-color:#438797;color:white;
+  background:linear-gradient(45deg,#22a6b3,#30336b);
+  color:white;
 }
 footer{
   font-size: 14px; 
   text-align:center;
-  box-shadow:2px -2px 5px #59A9B5;
+ /* box-shadow:2px -2px 5px #59A9B5;*/
   display: flex;flex-direction:column; 
 }
 footer p{
@@ -28,8 +29,6 @@ footer p{
   } 
   
   #card-skills{
-       
-    border:0; 
     border-radius: 0;
     background:white;
   }
