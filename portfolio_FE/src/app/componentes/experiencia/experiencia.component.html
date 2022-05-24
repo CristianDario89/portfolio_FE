@@ -1,7 +1,7 @@
 <div class="card mat-card" id="card-experiencia">
 
     <div class="card-titles">
-        <h2>Experiencia</h2>
+        <h2 class="mb-3">Experiencia</h2>
         <div class="btn-edit" onclick="cambiar_parrafo()">
             <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
         </div>
@@ -15,9 +15,9 @@
                     <img class="logo-image" [src]="experiencia.img">
                 </div>
                 <div class="list-info">
-                  <div>
-                     <h3>{{experiencia.empresa}}</h3>
-                     <p>{{experiencia.puesto}}</p>
+                  <div class="wrap-data">
+                     <p id="title">{{experiencia.empresa}}</p>
+                     <p id="puesto">{{experiencia.puesto}}</p>
                      <p><time>{{experiencia.start}}</time> - <time>{{experiencia.end}}</time></p>
                   </div>
                 </div>

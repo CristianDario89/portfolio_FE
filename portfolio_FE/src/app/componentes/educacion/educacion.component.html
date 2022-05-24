@@ -1,12 +1,12 @@
 <div class="card mat-card" id="card-educacion">
 
     <div class="card-titles">
-        <h2>Educación</h2>
+        <h2 class="mb-3">Educación</h2>
         <div class="btn-edit" onclick="cambiar_parrafo()">
             <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
         </div>
     </div>
-
+ 
     <ul class="items-list">
        <li *ngFor="let educacion of educacionList">
         <div class="data-container">
@@ -15,10 +15,10 @@
                     <img class="logo-image" [src]="educacion.img">
                 </div>
                 <div class="list-info">
-                  <div>
-                     <h3>{{educacion.institucion}}</h3>
-                     <p>{{educacion.title}}</p>
-                     <p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+                  <div class="wrap-data">
+                     <p id="institucion">{{educacion.institucion}}</p>
+                     <p id="title">{{educacion.title}}</p>
+                     <p id="time"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
                   </div>
                 </div>
                 <div class="data-control">
@@ -31,6 +31,81 @@
        </li>
     </ul>
 
+    <div class="gallery-image">
+      <div class="img-box">
+          <img src="../../../assets/educacion/analytic.png" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Sea</p>
+              <p class="opacity-low">Cityscape</p>
+            </div>
+          </div> 
+      </div>
+      <div class="img-box">
+          <img src="../../../assets/educacion/meanUdemy.jpg" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Vintage</p>
+              <p class="opacity-low">Cinematic</p>
+            </div>
+          </div> 
+      </div>
+      <div class="img-box">
+        <img src="../../../assets/educacion/cole1.jpg" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Tea Talk</p>
+            <p class="opacity-low">Composite</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="../../../assets/educacion/cole2.jpg" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Road</p>
+            <p class="opacity-low">Landscape</p>
+          </div>
+        </div> 
+      </div>
+      <div class="img-box">
+          <img src="../../../assets/educacion/Certificado1.png" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Night Sky</p>
+              <p class="opacity-low">Cinematic</p>
+            </div>
+          </div>
+        </div>
+      <div class="img-box">
+        <img src="../../../assets/educacion/c3.jpg" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Vintage</p>
+            <p class="opacity-low">Cinematic</p>
+          </div>
+        </div> 
+      </div>
+      <div class="img-box">
+          <img src="../../../assets/educacion/CRISTIAN DARIO ROMERO70 (2).jpg" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Sea</p>
+              <p class="opacity-low">Cityscape</p>
+            </div>
+          </div> 
+      </div>
+      <div class="img-box">
+          <img src="../../../assets/educacion/Certificado2.png" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Library</p>
+              <p class="opacity-low">Architect Design</p>
+            </div>
+          </div> 
+        </div>
+      
+    </div>
     <input type="text" id="edit-acercade" oninput="myFunction2(this.value)" style="display:none">
 
 </div>
