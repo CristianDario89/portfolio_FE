@@ -1,4 +1,7 @@
   /*--------------footer----------*/
+  #card-skills{
+    border:none;
+  }
 .wrap-footer{
   background:linear-gradient(45deg,#22a6b3,#30336b);
   color:white;
@@ -17,12 +20,11 @@ footer p{
 } 
 /*--------------*/
  
-  .row div{
-    border-radius:10px;   
-    border:solid  3.5px #438797; 
+  .row div{   
+    border:solid  3.5px black; 
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    background:hsla(67, 95%, 95%, 1);
-
+  /*  background:hsla(67, 95%, 95%, 1);*/
+    background: url('../../../assets/exp/12.webp');
     text-align: center;
     margin-bottom: 10px;
      

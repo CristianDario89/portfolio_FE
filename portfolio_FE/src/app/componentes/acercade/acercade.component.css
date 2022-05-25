@@ -1,12 +1,22 @@
 #card-acercade{  
-    border:solid  3.5px black;
-    /*border:solid  4px hsla(0, 95%, 35%, 1); */
+    border:solid  3.5px black; 
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-   background:linear-gradient(45deg,#22a6b3,#30336b);
-   color:white;
+    
+   background: url('../../../assets/exp/12.webp');
+   color:black;
  
   }
   #card-acercade div p{  
     line-height:20px;
     margin: 0 !important;
+  }
+    
+  
+  @keyframes border-animation {
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 100%;
+    }
   }

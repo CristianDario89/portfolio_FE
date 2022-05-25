@@ -1,13 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Montserrat+Alternates:wght@300;400&display=swap');
+ #card-experiencia{
+   border:none;
+ }
+.row .parte1{
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: solid;
+    background: #eaeaed;
+}
 p{
    text-align: justify;  
 }
- 
-.parte2 img, .parte1 img{
-    height: 300px;
-    width: 100%;
-    padding: 0 150px;
-}
+.parte1{
+   margin:10px 40px;
+   border-radius: 10px;
+
+ } 
+/*
+.parte1:hover {
+  box-shadow:   0 0 1px red, 
+                0 0 3px white, 
+                0 0 5px #03e9f4,
+                0 0 8px black; 
+
+  }*/
+/*------------------*/
+.parte2 img{
+    height:170px;
+    width: 100%; 
+    border: 1px solid #b80000;
+    border-radius: 10px;
+    transform: scaleX(0.65) scaleY(0.95);
+
+}   
+/*---------------*/
  p a{
     text-decoration: none;
     color:grey;
@@ -15,27 +42,62 @@ p{
      
 }
 .link-proyecto{
-    line-height:1px;
+    line-height:1px;text-align: center;
 }
 p a:hover{
-     color:red; 
-} 
+     color:#b80000; 
+} /*
 .titulo{
     font-size: 20px;
-}
+}*/
 /*------------------------*/
  .p-descripcion{
      line-height:18px;
- }
+    font-family: sans-serif;
+   
+ } 
+ /*-------------*/
+ .one .titulo {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 22px;
+  }
+  .one .titulo:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+  }
+  .one .titulo:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top:4px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+  }
   /*---------------*/
-@media (max-width:620px){
-    .parte2 img, .parte1 img{
+@media (max-width:920px){
+    .parte2 img{
         height: 300px;
         width: 100%;
         padding: 0 0;
-        border: 2px dotted #438797;
-
+       
         transform: scale(0.85);
     }
   
+.parte1{
+   
+    margin:0;
+    margin-bottom: 35px;
+} 
 }
