@@ -15,9 +15,10 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PortfolioService } from './servicios/portfolio.service';
 import { InterceptorService } from './servicios/interceptor.service';
+import { ModalComponent } from './componentes/modal/modal.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +29,14 @@ import { InterceptorService } from './servicios/interceptor.service';
     skillsComponent,
     ProyectoComponent,
     IniciarSesionComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule,
+    HttpClientModule, 
     NgCircleProgressModule.forRoot({})
   ],
   providers: [PortfolioService,

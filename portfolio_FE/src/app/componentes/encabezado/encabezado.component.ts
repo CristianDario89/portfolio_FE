@@ -10,6 +10,7 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 export class EncabezadoComponent implements OnInit {
   persona: persona = new persona("","");
   miPortfolio:any;
+ 
   constructor(public personaService: PersonaService, 
               private datosPortfolio: PortfolioService) { }
 
@@ -23,15 +24,6 @@ export class EncabezadoComponent implements OnInit {
       console.log(data);
       this.miPortfolio=data;
     });
-  }
-/*  miPortfolio:any;
-  constructor(private datosPortfolio: PortfolioService) { }
-
-  ngOnInit(): void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.miPortfolio=data;
-    });
-  }*/
-
+  } 
+ 
 }

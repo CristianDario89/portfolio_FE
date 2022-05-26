@@ -29,16 +29,8 @@ div#profile-background img{
  margin-top: -110px;
  z-index:1;  
 }
-div#info-actions{display:flex; } 
-
-div#info-actions button{
-  margin-right: 4px; 
-  background-color: black;
-  color: tomato;
-  border-color: #438797;
-  font-family: 'Courier New', Courier, monospace;
-  letter-spacing: -1px;
- }
+div#info-actions{display:flex;justify-content: left; } 
+ 
 
 ul li{  list-style:none;}
 /*-------------------------*/
