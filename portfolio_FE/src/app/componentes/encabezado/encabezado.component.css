@@ -256,8 +256,20 @@ margin: 0 !important;
 	}
   }
   /*--------------*/
-  
+  #info-actions button{
+	  padding: 0.5px 6px;
+	 margin-right: 2px;
+	 background-color: tomato;color: white;
+	 border: 1px solid grey;
+	 border-radius:6%;
 
+	display: inline;
+	font-family: 'Courier New', Courier, monospace;
+	letter-spacing: -1px;word-spacing: -4px;
+  }
+  #info-actions button a{ 
+	text-decoration: none;color: white;
+}
  /*Modal*/ 
 .modalDialog {
     position: fixed;
@@ -272,19 +284,25 @@ margin: 0 !important;
     -moz-transition: opacity 100ms ease-in;
     transition: opacity 100ms ease-in;
     pointer-events: none;
+	overflow-y: auto;
+	
 }
 .modalDialog:target {
     opacity:1;
     pointer-events: auto;
 }
 .modalDialog > div {
-    max-width: 800px;
-    width: 90%;
+    max-width: 700px;
+    width: 100%;
     position: relative;
-    margin: 10% auto;
+    margin: 2% auto;
     padding: 20px;
     border-radius: 3px;
     background: #fff;
+
+	border:solid  3.5px black; 
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+	background: url('../../../assets/exp/12.webp');
 }
 .close {
     font-family: Arial, Helvetica, sans-serif;
@@ -311,6 +329,66 @@ margin: 0 !important;
     background: #fa3f6f;
 }
 
+/*----------------*/
+h3{
+	font-family: 'Courier New', Courier, monospace;
+
+}
+.containerpeli{
+	background:#fff;
+	width:300px;
+	margin:10px;
+	font-family: 'Courier New', Courier, monospace;
+
+  }
+  .containerpeli .header{
+	width:100%;
+	background:tomato;
+	height:40px; 
+	display: inline-block;
+  }
+  .header h1 {
+	color:#fff;
+	font-size:20px;
+	line-height:40px;
+	margin: 0 20px;
+	 
+  }
+  .containerpeli {
+	box-shadow:  1px 1px 1px black, -1px -1px 1px black ;
+	 
+  }
+  .containerpeli ul li {
+   padding:15px;
+   border-bottom:1px solid #ccc;
+  }
+  ul li img {
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	 opacity: 0;
+  }
+  ul li h1 {
+	margin-left:70px;
+	margin-top:-50px;
+	font-size:17px;
+	font-weight:550;
+	letter-spacing: -1px;
+  }
+  ul li p {
+	margin-left:70px;
+	margin-top:0px;
+	letter-spacing: -1px;
+	line-height: 15px;
+  }
+  ul li:hover {
+	background:gray;
+  }
+/*------------*/
+.uniqUL {
+	background: coral;
+	width: 300px; 
+}
   /*------------------*/
 @media (max-width:620px){  
     
@@ -340,4 +418,9 @@ margin: 0 !important;
 	line-height: 60px;
   }
   
+  #info-actions button{
+	transform:scaleY(0.8);
+}
+/*------------*/
+ 
 }
