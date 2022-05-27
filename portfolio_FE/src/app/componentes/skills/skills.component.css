@@ -20,7 +20,6 @@ footer p{
   padding-top: 14px;
 } 
 /*--------------*/
- 
   .row div{   
     border:solid  3.5px black; 
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
@@ -35,4 +34,6 @@ footer p{
     border-radius: 0;
     background:white;
   }
-   
+ /*-----------------*/ 
+.img-tres{background-image:url("../../../assets/educacion/p3.jpg")}
+  

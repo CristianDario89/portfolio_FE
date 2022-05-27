@@ -7,7 +7,9 @@
     border-right-style: solid;
     border-bottom-style: double;
     border-left-style: solid;
-    background: #eaeaed;
+  /*  background: #eaeaed;*/
+  
+  background: url('../../../assets/exp/12.webp');
 }
 p{
    text-align: justify;  
@@ -16,15 +18,9 @@ p{
    margin:10px 40px;
    border-radius: 10px;
 
- } 
-/*
-.parte1:hover {
-  box-shadow:   0 0 1px red, 
-                0 0 3px white, 
-                0 0 5px #03e9f4,
-                0 0 8px black; 
+ }  
+.img-tres{background-image:url("../../../assets/educacion/p5.webp")}
 
-  }*/
 /*------------------*/
 .parte2 img{
     height:170px;
