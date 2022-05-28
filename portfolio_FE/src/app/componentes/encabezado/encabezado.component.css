@@ -217,11 +217,11 @@ margin: 0 !important;
 	padding: 0 40px;
 	height: 60px;
 	overflow: hidden;
-	font-family: 'Courier New', Courier, monospace;
+	font-family:cursive;
   }
   
-  .line{
- 
+  .line a{
+ text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 40px;
@@ -406,17 +406,13 @@ h3{
 {
     height: 330px; 
 }
-/*---------*/
-.animated-text{
-	 font-family: Roboto, Arial, sans-serif;
-  }
-  
-  .line{
-	font-size: 18px;
+/*---------*/ 
+  .line a{
+	font-size: 16px; 
 	line-height: 60px;
  
   }
-  
+  .line  {transform:scaleY(1.4); }
   #info-actions button{
 	transform:scaleY(0.8);
 }

@@ -6,10 +6,7 @@
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: double;
-    border-left-style: solid;
-  /*  background: #eaeaed;*/
-  
-  background: url('../../../assets/exp/12.webp');
+    border-left-style: solid; 
 }
 p{
    text-align: justify;  
@@ -18,9 +15,7 @@ p{
    margin:10px 40px;
    border-radius: 10px;
 
- }  
-.img-tres{background-image:url("../../../assets/educacion/p5.webp")}
-
+ }   
 /*------------------*/
 .parte2 img{
     height:170px;
@@ -81,7 +76,7 @@ p a:hover{
     margin-left: -50px;
     background-color: #b80000;
   }
-  /*---------------*/
+  /*---------------*/  
 @media (max-width:920px){
     .parte2 img{
         height: 300px;

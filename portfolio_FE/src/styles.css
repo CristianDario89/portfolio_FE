@@ -7,14 +7,11 @@ html{
 	scroll-behavior: smooth;
   }
 .mat-card{ 
-  margin:5px 10px;
-   
-}
-
+  margin:5px 10px;   
+} 
 .mat-card#first-card{
   padding: 0;  
-}
-
+} 
 div#profile-background{
 display: flex;   
 }
@@ -33,7 +30,6 @@ div#profile-background img{
 }
 div#info-actions{display:flex;justify-content: left; } 
  
-
 ul li{  list-style:none;}
 /*-------------------------*/
 .card-titles{
@@ -83,30 +79,43 @@ grid-template-columns: 10% 89% 1%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:  cover;
-	height:8rem;
+	height:5rem;
 	max-width: 100%;
 	position: relative;
-
-	margin:10px 50px;
+ 	margin: 1.6rem 0;
 }
 
 .texto-interior{
-	color:#fff;
-	 
-	font-weight: bold;
- 
+	color:black;
+    font-weight: bold; 
 	font-family: 'Montserrat Subrayada', sans-serif;
- 
-	display:flex;justify-content:center;align-content:center;
-	position: relative;top:25%;
-}
-
-.texto-interior h2{font-size: 50px;
-
-}
-
+	display:inline-block; 
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+ 	transform: translate(-50%, -50%); 
+	 color:tomato;
+} 
+/*-------------*/
+.wrap-img { 
+  position: relative;
+  right: 10%;
+  height:140px;
+  }
+.wrap-img img{ 
+ height: 100%;
+	width: 100%;
+	border:1px solid blue;
+  }
+  .wrap-titulo{
+	 padding-left: 100px;
+  } 
+  .img-tres{
+    background-image:url("/assets/fondosTitu/1.jpg");
+  }
 /*-----------------*/
-@media (max-width:620px){
+@media (max-width:820px){
 .logo-image{
   width:40px;height:30px;
 }
@@ -120,13 +129,24 @@ grid-template-columns: 10% 89% 1%;
   width:60px;height:50px;
   transform:translateX(-10px) translateY(-7px);
 }
-.texto-interior h2{font-size:40px;
-
-}
+.texto-interior{font-size:37px; }
+/*------------*/
 .parallax{
- 
-	height:6.5rem;
-	 
-	margin:10px 50px;
+ margin:0;
+ height:5rem;
+}
+.wrap-img {  
+	right: 0;
+	height: 150px;
+}	
+.wrap-img img{ 
+	margin:0;
+	border:none;
+	border-left:9px solid black;
+	border-right:9px solid black;
+	border-bottom:6px solid black;
+  } 
+.wrap-titulo{
+		padding-left: 5px;
 }
 }

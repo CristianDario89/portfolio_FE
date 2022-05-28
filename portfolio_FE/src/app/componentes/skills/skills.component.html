@@ -1,12 +1,21 @@
-<div class="parallax img-tres" id="m">
-    <div class="texto-interior">
-      <h2 id="m">Skills</h2>
-    </div>
+<div class="row wrap-titulo my-2">
+  
+      <div class="col-lg-8">
+        <div class="parallax img-tres" id="skills">
+          <h2 class="texto-interior">
+           Skills 
+          </h2>
+        </div>
+      </div>
+    
+      <div class="col-lg-4 wrap-img">
+        <img  src="../../../assets/educacion/s7.jpg">
+      </div>
+    
 </div>
-
 <div class="card mat-card" id="card-skills">
       
-     <div class="row">
+     <div class="row wrap-skills">
        
          <div class="col-sm-4 col-md-4 col-lg-4" *ngFor="let proyecto of skillList">
             <h3 class="text-center">{{proyecto.skill}}</h3>

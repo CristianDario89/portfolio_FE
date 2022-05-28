@@ -1,11 +1,8 @@
 #card-experiencia{
-      background: url('../../../assets/exp/12.webp');
+   /*   background: url('../../../assets/exp/12.webp');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-     border:solid  3.5px black; 
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    
     margin:0 50px; 
   } 
   .wrap-data{
@@ -24,9 +21,6 @@
     font-size:20px;letter-spacing: -1px;
   }
   /*----*/
-  
-.img-tres{background-image:url("../../../assets/educacion/p4.jpg")}
-
   @media (max-width:820px){
     #card-experiencia{
  
