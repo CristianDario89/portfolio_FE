@@ -1,3 +1,18 @@
+<form (ngSubmit)="userLogin()">
+  <div class="mb-3">
+    <label>UserID</label>
+    <input type="text" [(ngModel)]="user.userId" id="userId" name="userId">
+  </div>
+  <div class="mb-3">
+    <label>Pass</label>
+    <input type="password" [(ngModel)]="user.password" id="password" name="password">
+  </div>
+
+  <button type="submit" class="btn btn-primary">login</button>
+</form>
+
+
+<!--
 <div id="wraplogin">
 
 
@@ -50,4 +65,4 @@
       
 </div>
 
-
+--> 
