@@ -17,12 +17,15 @@
 <div class="card mat-card" id="card-educacion">
 
     <div class="card-titles">
-     
-        <h2 class="mb-3"></h2>
+     <!--
+  <h2 class="mb-3"></h2>
       
-        <div class="btn-edit" onclick="cambiar_parrafo()">
-            <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
+        <div class="">
+            <a routerLink="crear-educacion" routerLinkActive="active"><i class="fa fa-plus"></i></a>
         </div>
+     -->
+     <button (click)="redirect()" class="btn btn-"><i class="fa fa-plus"></i></button>
+             
     </div>
  
     <ul class="items-list">
@@ -39,11 +42,15 @@
                      <p id="time"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
                   </div>
                 </div>
+
+                <!--
                 <div class="data-control">
                     <div class="btn-edit">
                         <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
                     </div>
                 </div>
+                -->
+              <button (click)="updateEducacion(educacion.id)" class="btn"><i class="fa fa-pen"></i></button>
              
         </div>
        </li>

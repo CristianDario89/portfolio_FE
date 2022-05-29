@@ -15,4 +15,10 @@ export class EducacionService {
     return this.http.get<educacion>(this.URL+"traer");
    
   }  
+
+  registrarEducacion(educacion:educacion):Observable<Object>{
+
+    return this.http.post<educacion>(this.URL+"crear", educacion);
+   
+  }  
 }

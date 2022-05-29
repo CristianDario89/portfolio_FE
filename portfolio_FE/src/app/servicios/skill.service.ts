@@ -16,4 +16,11 @@ export class skillservice {
     return this.http.get<Skill>(this.URL+"traer");
    
   }  
+
+  
+  registrarSkill(Skill:Skill):Observable<Object>{
+
+    return this.http.post<Skill>(this.URL+"crear", Skill);
+   
+  }  
 }

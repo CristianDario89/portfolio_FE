@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
  
 import { educacion } from 'src/app/model/educacion.model';
 import { EducacionService } from 'src/app/servicios/educacion.service';
@@ -10,14 +11,14 @@ import { EducacionService } from 'src/app/servicios/educacion.service';
 export class EducacionComponent implements OnInit {
   educacionList: any = new educacion("","","","","");
 
-  constructor(public educacionService: EducacionService ) { }
+  constructor(public educacionService: EducacionService,
+              public router: Router  ) { }
  
   ngOnInit(): void {
     this.educacionService.obtenerDatos().subscribe(data=>{//metodo q escuche siempre  q el observable haga un cambio
-      console.log("Datos educacion: "+ JSON.stringify(data));
+    /*  console.log("Datos educacion: "+ JSON.stringify(data));*/
       this.educacionList = data; 
-    });
-    
+    }); 
   /*
   educacionList:any;
   constructor(private datosPortfolio: PortfolioService) { }
@@ -28,5 +29,12 @@ export class EducacionComponent implements OnInit {
       this.educacionList=data.educacion;
     });*/
   }
-
+  updateEducacion(id:number){
+      console.log(id);
+      this.router.navigate(["update-educacion",id]);
+  }
+  
+  redirect(){
+    this.router.navigate(['crear-educacion']); /*, {skipLocationChange :true}*/  
+  }
 }

@@ -19,6 +19,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PortfolioService } from './servicios/portfolio.service';
 import { InterceptorService } from './servicios/interceptor.service';
 import { ModalComponent } from './componentes/modal/modal.component';
+import { EduEditComponent } from './componentes2/edit/edu-edit/edu-edit.component';
+import { EduCrearComponent } from './componentes2/crear/edu-crear/edu-crear.component';
+import { ExpCrearComponent } from './componentes2/crear/exp-crear/exp-crear.component';
+import { ProyCrearComponent } from './componentes2/crear/proy-crear/proy-crear.component';
+import { SkillCrearComponent } from './componentes2/crear/skill-crear/skill-crear.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,12 +35,18 @@ import { ModalComponent } from './componentes/modal/modal.component';
     ProyectoComponent,
     IniciarSesionComponent,
     PortfolioComponent,
-    ModalComponent
+    ModalComponent,
+    EduEditComponent,
+    EduCrearComponent,
+    ExpCrearComponent,
+    ProyCrearComponent,
+    SkillCrearComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    FormsModule,
     HttpClientModule, 
     NgCircleProgressModule.forRoot({})
   ],

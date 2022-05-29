@@ -14,4 +14,10 @@ export class ProyectoService {
     return this.http.get<proyecto>(this.URL+"traer");
    
   }  
+  
+  registrarProyecto(proyecto:proyecto):Observable<Object>{
+
+    return this.http.post<proyecto>(this.URL+"crear", proyecto);
+   
+  }  
 }

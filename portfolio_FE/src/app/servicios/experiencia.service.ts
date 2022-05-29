@@ -14,4 +14,10 @@ export class ExperienciaService {
     return this.http.get<experiencia>(this.URL+"traer");
    
   }  
+  
+  registrarEducacion(experiencia:experiencia):Observable<Object>{
+
+    return this.http.post<experiencia>(this.URL+"crear", experiencia);
+   
+  }  
 }
