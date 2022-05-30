@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router'; 
+import { Router } from '@angular/router';
 import { EducacionService } from 'src/app/servicios/educacion.service';
 import { educacion } from 'src/app/model/educacion.model';
 @Component({
@@ -8,25 +8,25 @@ import { educacion } from 'src/app/model/educacion.model';
   styleUrls: ['./edu-crear.component.css']
 })
 export class EduCrearComponent implements OnInit {
-  educacion : educacion = new educacion("","","","","");
+  educacion: educacion = new educacion("", "", "", "", "");
   constructor(public educacionService: EducacionService,
-              public router: Router ) { }
+    public router: Router) { }
 
   ngOnInit(): void {
   }
 
-  
-  guardarEducacion(){
-    this.educacionService.registrarEducacion(this.educacion).subscribe(data=>{ 
-      console.log("Educacion AGREGADA: "+ JSON.stringify(data));
-      this.volverAlPortfolio();
-    }, error => console.log(error)); 
+
+  guardarEducacion() {
+    this.educacionService.registrarEducacion(this.educacion).subscribe(data => {
+      console.log("Educacion AGREGADA: " + JSON.stringify(data));
+      this.router.navigate(['/portfolio']);
+    }, error => console.log(error));
   }
 
-  volverAlPortfolio(){
+  volverAlPortfolio() {
     this.router.navigate(['/portfolio']);
   }
-  onSubmit(){
+  onSubmit() {
     console.log(this.educacion);
     this.guardarEducacion();
   }

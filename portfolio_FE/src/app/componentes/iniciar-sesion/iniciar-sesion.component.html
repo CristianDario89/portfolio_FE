@@ -1,68 +1,41 @@
-<form (ngSubmit)="userLogin()">
-  <div class="mb-3">
-    <label>UserID</label>
-    <input type="text" [(ngModel)]="user.userId" id="userId" name="userId">
-  </div>
-  <div class="mb-3">
-    <label>Pass</label>
-    <input type="password" [(ngModel)]="user.password" id="password" name="password">
-  </div>
+ <!--
+     <form (ngSubmit)="userLogin()">
+   <div class="mb-3">
+     <label>UserID</label>
+     <input type="text" [(ngModel)]="user.userId" id="userId" name="userId">
+   </div>
+   <div class="mb-3">
+     <label>Pass</label>
+     <input type="password" [(ngModel)]="user.password" id="password" name="password">
+   </div>
+ 
+   <button type="submit" class="btn btn-primary">login</button>
+ </form>
+ 
+ -->
+ <div class="wrap">
 
-  <button type="submit" class="btn btn-primary">login</button>
-</form>
+  <div id="MainLogin">
+		<div class="TopLogin">
+			<p> Log In </p>
+		</div>
 
+		<div class="OuterLogin">
 
-<!--
-<div id="wraplogin">
+      <form (ngSubmit)="userLogin()">
+        <label for="userName"> User Name or Email </label>
+        <input  type="text"  [(ngModel)]="user.userId" id="userId" name="userId"
+                required
+                minlength="4"
+                maxlength="20"
+                placeholder="Digite usuario">
 
+        <label for="passWord"> Password </label>
+        <input type="password" [(ngModel)]="user.password" id="password" name="password">
 
-
-    <div class="login-box">
-        <h1>Login</h1>
-
-        <form [formGroup]="form" (ngSubmit)="onEnviar($event)" > 
-        <div class="textbox">
-          <i class="fas fa-user"></i>
-           <input type="email" formControlName="email"
-                  [ngClass]="{
-                              'is-invalid': Email?.errors && Email?.touched, 
-                              'is-valid': !Email?.errors && Email?.touched 
-                            }"
-                  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div  *ngIf="Email?.errors && Email?.touched">
-                    <p    *ngIf="Email?.hasError('required')" class="text-danger">
-                      El email es requerido
-                    </p>
-                    <p *ngIf="Email?.hasError('email')" class="text-danger">
-                      El formato del email debe ser valido
-                    </p>
-              </div>    
-
-        </div>
-      
-        <div class="textbox">
-          <i class="fas fa-lock"></i>
-              <input type="password" formControlName="password" 
-              [ngClass]="{  'is-invalid':   Password?.errors && Password?.touched,
-                            'is-valid':     !Password?.errors && Password?.touched }"
-            
-              class="form-control" id="exampleInputPassword1">
-            
-              <div *ngIf="Password?.errors && Password?.touched">
-                <p *ngIf="Password?.hasError('required')" class="text-danger">
-                  El password es requerido
-                </p>
-                <p *ngIf="Password?.errors?.['minlenght']" class="text-danger">
-                  La contraseña debe ser de 8 caracteres o mas
-                </p>
-              </div>
-        </div>
-      
-        <input type="submit" class="btn" value="Sign in">
-
+        <input type="submit" name="takeAction" value="Log In" id="sb">
       </form>
-      </div>
-      
-</div>
-
---> 
+		</div>
+	</div>
+ </div>
+ 

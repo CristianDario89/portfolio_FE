@@ -6,18 +6,23 @@ import { experiencia } from '../model/experiencia.model';
   providedIn: 'root'
 })
 export class ExperienciaService {
-  URL:string="http://localhost:8090/experiencia/"
-  constructor(private http:HttpClient) { }
+  URL: string = "http://localhost:8090/experiencia/"
+  constructor(private http: HttpClient) { }
 
-  obtenerDatos():Observable<experiencia>{
+  obtenerDatos(): Observable<experiencia> {
 
-    return this.http.get<experiencia>(this.URL+"traer");
-   
-  }  
-  
-  registrarEducacion(experiencia:experiencia):Observable<Object>{
+    return this.http.get<experiencia>(this.URL + "traer");
 
-    return this.http.post<experiencia>(this.URL+"crear", experiencia);
-   
-  }  
+  }
+
+  registrarExperiencia(experiencia: experiencia): Observable<Object> {
+
+    return this.http.post<experiencia>(this.URL + "crear", experiencia);
+
+  }
+
+  eliminarExperiencia(id: number): Observable<Object> {
+    return this.http.delete(`${this.URL}borrar/${id}`);
+  }
+
 }

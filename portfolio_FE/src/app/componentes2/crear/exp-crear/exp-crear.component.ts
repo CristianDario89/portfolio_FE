@@ -17,8 +17,8 @@ export class ExpCrearComponent implements OnInit {
   }
 
   guardarExperiencia(){
-    this.ExperienciaService.registrarEducacion(this.experiencia).subscribe(data=>{ 
-      console.log("Educacion AGREGADA: "+ JSON.stringify(data));
+    this.ExperienciaService.registrarExperiencia(this.experiencia).subscribe(data=>{ 
+      console.log("experiencia AGREGADA: "+ JSON.stringify(data));
       this.volverAlPortfolio();
     }, error => console.log(error)); 
   }

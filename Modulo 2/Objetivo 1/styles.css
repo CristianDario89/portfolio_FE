@@ -37,12 +37,13 @@ ul li{
   
 /*-------------------------*/
 .card-titles{
-  display:flex;justify-content:space-between;
+  display:flex;justify-content:right;
 }
 
 /*-------------*/
 .nombre-completo p{
   display: inline;
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 #card-acercade, #info, #card-experiencia, #card-educacion{

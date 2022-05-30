@@ -8,22 +8,22 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./encabezado.component.css']
 })
 export class EncabezadoComponent implements OnInit {
-  persona: persona = new persona("","");
-  miPortfolio:any;
- 
-  constructor(public personaService: PersonaService, 
-              private datosPortfolio: PortfolioService) { }
+  persona: persona = new persona("", "");
+  miPortfolio: any;
+
+  constructor(public personaService: PersonaService,
+    private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
-    this.personaService.obtenerDatos().subscribe(data=>{//metodo q escuche siempre  q el observable haga un cambio
-      console.log("Datos personales"+ JSON.stringify(data));
-      this.persona = data; 
+    this.personaService.obtenerDatos().subscribe(data => {//metodo q escuche siempre  q el observable haga un cambio
+      console.log("Datos personales" + JSON.stringify(data));
+      this.persona = data;
     });
 
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
+    this.datosPortfolio.obtenerDatos().subscribe(data => {
       console.log(data);
-      this.miPortfolio=data;
+      this.miPortfolio = data;
     });
-  } 
- 
+  }
+
 }

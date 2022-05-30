@@ -8,21 +8,19 @@ import { AutenticacionService } from './autenticacion.service';
 })
 export class GuardGuard implements CanActivate {
   constructor(private autenticacionService: AutenticacionService,
-              private rutas:Router)
-  {}
+    private rutas: Router) { }
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-      let currentUser = this.autenticacionService.UsuarioAutenticado;
-      if(currentUser && currentUser.accessToken){
-        return true;
-      }
-    else
-    {
+    let currentUser = this.autenticacionService.UsuarioAutenticado;
+    if (currentUser && currentUser.accessToken) {
+      return true;
+    }
+    else {
       this.rutas.navigate(['/iniciar-sesion']);
       return false;
     }
-     
+
   }
-  
+
 }

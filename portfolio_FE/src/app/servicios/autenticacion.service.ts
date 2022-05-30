@@ -12,22 +12,21 @@ export class AutenticacionService {
   currenUserSubject: BehaviorSubject<any>; //guarda los estados
 
 
-  constructor(private http:HttpClient) {
+  constructor(private http: HttpClient) {
     console.log("El servicio de autenticacion corriendo bro");
     this.currenUserSubject = new BehaviorSubject<any>(JSON.parse(sessionStorage.getItem('currentUser') || '{}'))
-   }
+  }
 
-   
-    IniciarSesion(credenciales:any):Observable<any> {
-        return this.http.post(this.url, credenciales).pipe(map(data =>{
-              sessionStorage.setItem('currentUser', JSON.stringify(data))    
-              this.currenUserSubject.next(data);   
-        return data;
+
+  IniciarSesion(credenciales: any): Observable<any> {
+    return this.http.post(this.url, credenciales).pipe(map(data => {
+      sessionStorage.setItem('currentUser', JSON.stringify(data))
+      this.currenUserSubject.next(data);
+      return data;
     }));
- }
+  }
 
- get UsuarioAutenticado()
- {
-   return this.currenUserSubject.value;
- }
+  get UsuarioAutenticado() {
+    return this.currenUserSubject.value;
+  }
 }

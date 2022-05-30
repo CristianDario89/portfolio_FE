@@ -6,11 +6,11 @@ import { User } from '../model/user.model';
   providedIn: 'root'
 })
 export class LoginService {
-  URL:string="http://localhost:8090/login"
-  constructor(private http:HttpClient) { }
+  URL: string = "http://localhost:8090/login"
+  constructor(private http: HttpClient) { }
 
-  loginUser(user:User):Observable<object> {
+  loginUser(user: User): Observable<object> {
     console.log(user);
-    return this.http.post(this.URL,user);
+    return this.http.post(this.URL, user);
   }
 }
