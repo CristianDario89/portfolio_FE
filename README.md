@@ -1,4 +1,4 @@
- <h1 align="center">Cómo va todo? 👋, Soy Cristian un simple entusiasta soñador quien juega ser programador por ahora. Cristian Darío</h1>
+ <h1 align="center">Cómo va todo? 👋, Soy Cristian un simple entusiasta soñador quien juega ser programador por ahora.</h1>
 <h3 align="center">Intentando llegar a ser programador full stack, mi origen es de Buenos Aires, El palomar.</h3>
 
 - 🔭 Proyecto final de trabajo integrador para Argentina Programa [PORTFOLIO WEB #AP](portfolio-fe.netlify.app/iniciar-sesion)
@@ -12,9 +12,7 @@
 - 👨‍💻 Algunas practicas de proyectos reales pueden ser vistas: [https://romero-cvprogramador.netlify.app/](https://romero-cvprogramador.netlify.app/)
 
 - 💬 Puedo decirte que me destaco tanto en Front end como en Back end **JS, CSS, Firebase, MySQL, Mongo, Hosting**
-
-- Contactame a través de mi sitio web **romero-cvprogramador.netlify.app/**
-
+ 
 - 📄 recuerda que para más información: [https://romero-cvprogramador.netlify.app/](https://romero-cvprogramador.netlify.app/)
 
 <h3 align="left">Connect with me:</h3>
