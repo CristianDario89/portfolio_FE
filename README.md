@@ -14,8 +14,7 @@
 - 💬 Puedo decirte que me destaco tanto en Front end como en Back end **JS, CSS, Firebase, MySQL, Mongo, Hosting**
  
 - 📄 recuerda que para más información: [https://romero-cvprogramador.netlify.app/](https://romero-cvprogramador.netlify.app/)
-
-<h3 align="left">Connect with me:</h3>
+ 
 <p align="left">
 </p>
 
