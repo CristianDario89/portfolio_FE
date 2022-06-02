@@ -1,4 +1,4 @@
- <h1 align="center">Cómo va todo? 👋, Soy Cristian un simple entusiasta soñador quien juega a ser programador por ahora.</h1>
+ <h1 align="center">Cómo va todo? 👋, Soy Cristian un simple entusiasta soñador quien presenta su portfolio web de la mano de Argentina Programa.</h1>
 <h3 align="center">Intentando llegar a ser programador full stack, mi origen es de Buenos Aires, El palomar.</h3>
 
 - 🔭 Proyecto final de trabajo integrador para Argentina Programa [PORTFOLIO WEB #AP](portfolio-fe.netlify.app/iniciar-sesion)
