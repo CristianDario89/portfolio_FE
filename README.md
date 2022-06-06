@@ -3,11 +3,11 @@
 
 - 🔭 Proyecto final de trabajo integrador para Argentina Programa [PORTFOLIO WEB #AP](portfolio-fe.netlify.app/iniciar-sesion)
 
-- 🌱 Nunca se para de aprender porque es mi núcleo **Vue js, Angular, Node js, Frances**
+- 🌱 Nunca se para de aprender  **Angular, Node js, Frances**
 
 - 👯 Buscando unirme a teams profesionales para demostrar que soy un signo suma [ABOUT ME](cartadepresentacion.netlify.app/)
 
-- 🤝 Sigo mi camino mientras tanto de programador por ejemplo generando sitios web y apps que ayudan a resolver problemas [PROJECTS](comprorapido.netlify.app/)
+- 🤝 Sigo mi camino mientras jugando a desarrollar sitios web y apps que ayudan a resolver problemas [PROJECTS](comprorapido.netlify.app/)
 
 - 👨‍💻 Algunas practicas de proyectos reales pueden ser vistas: [https://romero-cvprogramador.netlify.app/](https://romero-cvprogramador.netlify.app/)
 
