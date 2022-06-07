@@ -71,7 +71,7 @@
 </p><br>
 
 <h3 align="center" id="estadisticas">Estadísticas de github de cristian</h3>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cristiandario89&show_icons=true&locale=en" alt="cristiandario89" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cristiandario89&show_icons=true&locale=en" alt="cristiandario89" /></p>
 
 
 <!--
