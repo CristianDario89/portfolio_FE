@@ -6,11 +6,15 @@
 <p><i>Aplicación web full stack de arquitectura distribuida que permite mostrar y editar fácilmente: datos personales, estudios cursados, experiencia laboral, conocimiento de las tecnologías entre otras, la cual cuenta con las APIs necesarias para proveer a través de internet la información para su correcta y prolija manipulación.</i>
 </p>
  <br>
-<p>
-Este repositorio presenta una maqueta realizada en base al diseño generado HTML, CSS y Javascript, convirtiendolo en una página SPA producida en Angular paradigmas que nos permite el framework Angular haciendo uso de elementos tales como componentes, servicios, proveedores, patrón MVC y seguridad.
  
-<strong>Ayuda al usuario a manipular fácilmente cualquier dato sin perder tiempo en tareas de codificación repetitivas.</strong>   
+<div style="border:1px solid black; margin:0 50px;">
+ <p>
+   Este repositorio presenta una maqueta realizada en base al diseño generado HTML, CSS y Javascript, convirtiendolo en una página SPA producida en Angular paradigmas    que nos permite el framework Angular haciendo uso de elementos tales como componentes, servicios, proveedores, patrón MVC y seguridad.
+
+   <strong>Ayuda al usuario a manipular fácilmente cualquier dato sin perder tiempo en tareas de codificación repetitivas.</strong>   
 </p>
+</div>
+
  
 <h3 align="center">Contenido</h3>
 <ul>
