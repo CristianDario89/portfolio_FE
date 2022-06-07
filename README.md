@@ -20,7 +20,7 @@
 <p align="left">
 </p>
 
-<h3 align="left" id="built">Contruido con:</h3>
+<h3 align="center" id="built">Contruido con:</h3>
 <p align="left"> 
  
 <a href="https://angular.io" target="_blank" rel="noreferrer">
@@ -70,7 +70,7 @@
 
 </p>
 
-<h3 align="left" id="estadisticas">Estadísticas de github de cristian</h3>
+<h3 align="center" id="estadisticas">Estadísticas de github de cristian</h3>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cristiandario89&show_icons=true&locale=en" alt="cristiandario89" /></p>
 
 
