@@ -21,7 +21,7 @@
 </p>
 
 <h3 align="center" id="built">Contruido con:</h3>
-<p align="left"> 
+<p align="center"> 
  
 <a href="https://angular.io" target="_blank" rel="noreferrer">
  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
