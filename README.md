@@ -8,7 +8,7 @@
 
 <h3 align="center">Contenido</h3>
 <ul>
-  <li target="#built">Contruido con</li> 
+ <li><a href="built">Contruido con</a></li> 
   <li>Por qué la app?</li> 
   <li>Primeros pasos</li> 
   <li>¿Qué puedo respaldar/proteger?</li> 
