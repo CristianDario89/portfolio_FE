@@ -20,7 +20,7 @@
 <p align="left">
 </p>
 
-<h3 align="center" id="built">Contruido con:</h3>
+<h3 align="center" id="built">Contruido con:</h3><br>
 <p align="center"> 
  
 <a href="https://angular.io" target="_blank" rel="noreferrer">
@@ -68,7 +68,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
  </a> 
 
-</p>
+</p><br>
 
 <h3 align="center" id="estadisticas">Estadísticas de github de cristian</h3>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cristiandario89&show_icons=true&locale=en" alt="cristiandario89" /></p>
