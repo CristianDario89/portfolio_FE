@@ -83,12 +83,12 @@
 <h3 align="center" id="built">Imágenes del portfolio</h3><br>
 <p align="center"> 
   
- <img src="portfolio_FE/src/assets/editadas/1.png" alt="angular" width="80" height="80"/>
- <img src="portfolio_FE/src/assets/editadas/2.png" alt="angular" width="80" height="80"/>
- <img src="portfolio_FE/src/assets/editadas/3.png" alt="angular" width="80" height="80"/>
- <img src="portfolio_FE/src/assets/editadas/4.png" alt="angular" width="80" height="80"/>
- <img src="portfolio_FE/src/assets/editadas/5.png" alt="angular" width="80" height="80"/>
- <img src="portfolio_FE/src/assets/editadas/6.png" alt="angular" width="80" height="80"/>
+ <img src="portfolio_FE/src/assets/editadas/1.png" alt="angular" width="180" height="180"/>
+ <img src="portfolio_FE/src/assets/editadas/2.png" alt="angular" width="180" height="180"/>
+ <img src="portfolio_FE/src/assets/editadas/3.png" alt="angular" width="180" height="180"/>
+ <img src="portfolio_FE/src/assets/editadas/4.png" alt="angular" width="180" height="180"/>
+ <img src="portfolio_FE/src/assets/editadas/5.png" alt="angular" width="180" height="180"/>
+ <img src="portfolio_FE/src/assets/editadas/6.png" alt="angular" width="180" height="180"/>
   
   
 </p><br>
