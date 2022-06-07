@@ -97,12 +97,12 @@
 <h3 align="center" id="imagenes">Diseño Responsive</h3><br>
 <p align="center"> 
   
- <img src="portfolio_FE/src/assets/editadas/celuVista/1.png" alt="angular" width="450" height="300"/>
- <img src="portfolio_FE/src/assets/editadas/celuVista/2.png" alt="angular" width="450" height="300"/>
- <img src="portfolio_FE/src/assets/editadas/celuVista/3.png" alt="angular" width="450" height="300"/>
- <img src="portfolio_FE/src/assets/editadas/celuVista/4.png" alt="angular" width="450" height="300"/>
- <img src="portfolio_FE/src/assets/editadas/celuVista/5.png" alt="angular" width="450" height="300"/>
- <img src="portfolio_FE/src/assets/editadas/celuVista/6.png" alt="angular" width="450" height="300"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/1.png" alt="angular" width="200" height="200"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/2.png" alt="angular" width="200" height="200"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/3.png" alt="angular" width="200" height="200"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/4.png" alt="angular" width="200" height="200"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/5.png" alt="angular" width="200" height="200"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/6.png" alt="angular" width="200" height="200"/>
   
   
 </p><br>
