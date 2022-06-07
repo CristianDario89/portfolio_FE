@@ -19,7 +19,8 @@
   <li>Primeros pasos</li> 
   <li>¿Qué puedo respaldar/proteger?</li> 
   <li>Configuration</li> 
-  <li><a href="#estadisticas">Estadísticas de github</a></li> 
+  <li><a href="#estadisticas">Estadísticas de github</a></li>
+  <li><a href="#imagenes">Imágenes del portfolio</a></li> 
  
 </ul>
 
@@ -80,7 +81,7 @@
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cristiandario89&show_icons=true&locale=en" alt="cristiandario89" /></p>
 
 
-<h3 align="center" id="built">Imágenes del portfolio</h3><br>
+<h3 align="center" id="imagenes">Imágenes del portfolio</h3><br>
 <p align="center"> 
   
  <img src="portfolio_FE/src/assets/editadas/1.png" alt="angular" width="450" height="300"/>
@@ -89,6 +90,19 @@
  <img src="portfolio_FE/src/assets/editadas/4.png" alt="angular" width="450" height="300"/>
  <img src="portfolio_FE/src/assets/editadas/5.png" alt="angular" width="450" height="300"/>
  <img src="portfolio_FE/src/assets/editadas/6.png" alt="angular" width="450" height="300"/>
+  
+  
+</p> 
+
+<h3 align="center" id="imagenes">Diseño Responsive</h3><br>
+<p align="center"> 
+  
+ <img src="portfolio_FE/src/assets/editadas/celuVista/1.png" alt="angular" width="450" height="300"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/2.png" alt="angular" width="450" height="300"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/3.png" alt="angular" width="450" height="300"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/4.png" alt="angular" width="450" height="300"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/5.png" alt="angular" width="450" height="300"/>
+ <img src="portfolio_FE/src/assets/editadas/celuVista/6.png" alt="angular" width="450" height="300"/>
   
   
 </p><br>
