@@ -7,15 +7,12 @@
 </p>
  <br>
  
-<div style="border:1px solid black; margin:0 50px;">
- <p>
+ <p style="border:1px solid black; margin:0 50px;">
    Este repositorio presenta una maqueta realizada en base al diseño generado HTML, CSS y Javascript, convirtiendolo en una página SPA producida en Angular paradigmas    que nos permite el framework Angular haciendo uso de elementos tales como componentes, servicios, proveedores, patrón MVC y seguridad.
 
    <strong>Ayuda al usuario a manipular fácilmente cualquier dato sin perder tiempo en tareas de codificación repetitivas.</strong>   
-</p>
-</div>
+</p> 
 
- 
 <h3 align="center">Contenido</h3>
 <ul>
   <li><a href="#built">Contruido con</a></li> 
