@@ -20,7 +20,8 @@
   <li>¿Qué puedo respaldar/proteger?</li> 
   <li>Configuration</li> 
   <li><a href="#estadisticas">Estadísticas de github</a></li>
-  <li><a href="#imagenes">Imágenes del portfolio</a></li> 
+  <li><a href="#imagenes">Imágenes del portfolio</a></li>
+  <li><a href="#responsive">Diseño responsive</a></li>
  
 </ul>
 
@@ -94,7 +95,7 @@
   
 </p> 
 
-<h3 align="center" id="imagenes">Diseño Responsive</h3><br>
+<h3 align="center" id="responsive">Diseño Responsive</h3><br>
 <p align="center"> 
   
  <img src="portfolio_FE/src/assets/editadas/celuVista/11.png" alt="angular" width="200" height="200"/>
