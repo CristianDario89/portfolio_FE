@@ -5,7 +5,6 @@
 <h3 align="center">Sobre el proyecto</h3>
 <h6><i>Aplicación web full stack de arquitectura distribuida que permite mostrar y editar fácilmente: datos personales, estudios cursados, experiencia laboral, conocimiento de las tecnologías entre otras, la cual cuenta con las APIs necesarias para proveer a través de internet la información para su correcta y prolija manipulación.</i>
 </h6>
- <br>
  
  <p>
    Este repositorio presenta una maqueta realizada en base al diseño generado en HTML, CSS y Javascript, convirtiendolo en una página SPA producida bajo el paradigma del framework Angular haciendo uso de elementos tales como componentes, servicios, proveedores, patrón MVC y seguridad.
