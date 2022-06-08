@@ -19,15 +19,15 @@ export class EduCrearComponent implements OnInit {
   guardarEducacion() {
     this.educacionService.registrarEducacion(this.educacion).subscribe(data => {
       console.log("Educacion AGREGADA: " + JSON.stringify(data));
-      this.router.navigate(['/portfolio']);
     }, error => console.log(error));
   }
 
   volverAlPortfolio() {
-    this.router.navigate(['/portfolio']);
+    this.router.navigate(['portfolio']);
   }
   onSubmit() {
     console.log(this.educacion);
     this.guardarEducacion();
+    this.volverAlPortfolio();
   }
 }

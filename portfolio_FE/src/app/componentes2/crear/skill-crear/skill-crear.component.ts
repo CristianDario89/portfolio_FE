@@ -23,7 +23,7 @@ export class SkillCrearComponent implements OnInit {
   }
 
   volverAlPortfolio(){
-    this.router.navigate(['/portfolio']);
+    this.router.navigate(['portfolio']);
   }
   onSubmit(){
     console.log(this.skill);

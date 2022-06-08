@@ -25,12 +25,12 @@ export class EducacionService {
 
   //este metodo sirve para actualizar el empleado
   actualizarEducacion(id: number, educacion: educacion): Observable<Object> {
-    return this.http.put(`${this.URL}${id}`, educacion);
+    return this.http.put(`${this.URL}actualizar/${id}`, educacion);
   }
 
   //este metodo sirve para obtener o buscar un empleado
   obtenerEducacionPorId(id: number): Observable<educacion> {
-    return this.http.get<educacion>(`${this.URL}actualizar/${id}`);
+    return this.http.get<educacion>(`${this.URL}${id}`);
   }
 
   eliminarEducacion(id: number): Observable<Object> {

@@ -9,7 +9,7 @@ import { EducacionService } from 'src/app/servicios/educacion.service';
   styleUrls: ['./educacion.component.css']
 })
 export class EducacionComponent implements OnInit {
-  educacionList: any = new educacion("", "", "", "", "");
+  educacionList: any = new educacion("","","","","");
 
   constructor(public educacionService: EducacionService,
     public router: Router) { }
@@ -29,12 +29,12 @@ export class EducacionComponent implements OnInit {
 
   eliminarEducacion(id: number) {
     this.educacionService.eliminarEducacion(id).subscribe(dato => {
-      console.log(dato);
-      this.router.navigate(['http://localhost:4200/portfolio']);
+     
+      this.volverAlPortfolio();
     });
   }
   volverAlPortfolio() {
-    this.router.navigate(['/portfolio']);
+    this.router.navigate(['portfolio']);
   }
   redirect() {
     this.router.navigate(['crear-educacion']); /*, {skipLocationChange :true}*/

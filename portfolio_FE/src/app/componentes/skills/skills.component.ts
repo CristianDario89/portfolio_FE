@@ -29,7 +29,7 @@ export class skillsComponent implements OnInit {
   eliminarHabilidad(id: number) {
     this.proyService.eliminarSkill(id).subscribe(dato => {
       console.log(dato);
-      this.router.navigate(['http://localhost:4200/portfolio']);
+      this.router.navigate(['portfolio']);
     });
   }
 }

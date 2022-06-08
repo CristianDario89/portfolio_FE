@@ -30,7 +30,7 @@ export class ProyectoComponent implements OnInit {
   eliminarPro(id: number) {
     this.ProyectoService.eliminarProyecto(id).subscribe(dato => {
       console.log(dato);
-      this.router.navigate(['http://localhost:4200/portfolio']);
+      this.router.navigate(['portfolio']);
     });
   }
 

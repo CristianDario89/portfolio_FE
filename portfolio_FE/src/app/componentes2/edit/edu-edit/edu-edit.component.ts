@@ -8,7 +8,7 @@ import { educacion } from 'src/app/model/educacion.model';
   styleUrls: ['./edu-edit.component.css']
 })
 export class EduEditComponent implements OnInit {
-  id:number = 0;
+  id!:number;
   educacion : educacion = new educacion("","","","","");
 
   constructor(public educacionService: EducacionService,
@@ -24,7 +24,7 @@ export class EduEditComponent implements OnInit {
 
   
   irAlPortfolio(){
-    this.router.navigate(['/portfolio']);
+    this.router.navigate(['portfolio']);
   /*  swal('Empleado actualizado',`El empleado ${this.empleado.nombre} ha sido actualizado con exito`,`success`);
   */}
 

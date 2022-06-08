@@ -23,9 +23,10 @@ export class ExpCrearComponent implements OnInit {
     }, error => console.log(error)); 
   }
 
-  volverAlPortfolio(){
-    this.router.navigate(['/portfolio']);
+  volverAlPortfolio() {
+  this.router.navigate(['portfolio']);
   }
+  
   onSubmit(){
     console.log(this.experiencia);
     this.guardarExperiencia();
