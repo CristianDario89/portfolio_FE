@@ -24,6 +24,9 @@ import { EduCrearComponent } from './componentes2/crear/edu-crear/edu-crear.comp
 import { ExpCrearComponent } from './componentes2/crear/exp-crear/exp-crear.component';
 import { ProyCrearComponent } from './componentes2/crear/proy-crear/proy-crear.component';
 import { SkillCrearComponent } from './componentes2/crear/skill-crear/skill-crear.component';
+import { ProyEditComponent } from './componentes2/edit/proy-edit/proy-edit.component';
+import { ExpEditComponent } from './componentes2/edit/exp-edit/exp-edit.component';
+import { SkillEditComponent } from './componentes2/edit/skill-edit/skill-edit.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +43,10 @@ import { SkillCrearComponent } from './componentes2/crear/skill-crear/skill-crea
     EduCrearComponent,
     ExpCrearComponent,
     ProyCrearComponent,
-    SkillCrearComponent
+    SkillCrearComponent,
+    ProyEditComponent,
+    ExpEditComponent,
+    SkillEditComponent
   ],
   imports: [
     BrowserModule,

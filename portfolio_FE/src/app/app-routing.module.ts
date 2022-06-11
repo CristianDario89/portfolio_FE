@@ -4,6 +4,9 @@ import { PortfolioComponent } from "./componentes/portfolio/portfolio.component"
 import { IniciarSesionComponent } from "./componentes/iniciar-sesion/iniciar-sesion.component";
 
 import { EduEditComponent } from "./componentes2/edit/edu-edit/edu-edit.component";
+import { ExpEditComponent } from "./componentes2/edit/exp-edit/exp-edit.component";
+import { ProyEditComponent } from "./componentes2/edit/proy-edit/proy-edit.component";
+import { SkillEditComponent } from "./componentes2/edit/skill-edit/skill-edit.component";
 
 import { EduCrearComponent } from "./componentes2/crear/edu-crear/edu-crear.component";
 import { ExpCrearComponent } from "./componentes2/crear/exp-crear/exp-crear.component";
@@ -18,6 +21,9 @@ const routes: Routes = [
   {path:'iniciar-sesion', component:IniciarSesionComponent},
 
   {path:'update-educacion/:id', component:EduEditComponent},
+  {path:'update-experiencia/:id', component:ExpEditComponent},
+  {path:'update-proyecto/:id', component:ProyEditComponent},
+  {path:'update-skill/:id', component:SkillEditComponent},
 
   {path:'crear-educacion', component:EduCrearComponent},
   {path:'crear-experiencia', component:ExpCrearComponent},

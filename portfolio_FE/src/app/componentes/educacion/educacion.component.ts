@@ -12,7 +12,7 @@ export class EducacionComponent implements OnInit {
   educacionList: any = new educacion("","","","","");
 
   constructor(public educacionService: EducacionService,
-    public router: Router) { }
+              public router: Router) { }
 
   ngOnInit(): void {
     this.obtenerEducacion();

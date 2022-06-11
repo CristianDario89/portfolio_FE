@@ -26,7 +26,7 @@
       <div class="one mt-2">
         <p class="titulo">{{proyecto.nombre}}</p>
         <div class="wrap-btns">
-          <button class="btnEdu"><i class="fa-solid fa-pen-to-square"></i></button>
+          <button (click)="actualizarProyecto(proyecto.id)" class="btnEdu"><i class="fa-solid fa-pen-to-square"></i></button>
           <button (click)="eliminarPro(proyecto.id)" class="btnEdu"><i class="fa-solid fa-trash"></i></button>
         </div>
 

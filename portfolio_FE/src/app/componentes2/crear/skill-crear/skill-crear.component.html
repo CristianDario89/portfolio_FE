@@ -7,15 +7,15 @@
     <form (ngSubmit)= "onSubmit()">
       <div class="form-group">
         <label>Habilidad : </label>
-        <input type="text" class="form-control" id="habilidad" [(ngModel)]="skill.habilidad" name="habilidad" required
-          minlength="4" maxlength="10" placeholder="Digite su habilidad " #nombre="ngModel">
+        <input type="text" class="form-control" id="habilidad" [(ngModel)]="habilidad.skill" name="habilidad" required
+          minlength="4" maxlength="20" placeholder="Digite su habilidad " #skill="ngModel">
 
       </div>
 
       <div class="form-group">
         <label>img : </label>
-        <input type="text" class="form-control" id="img" [(ngModel)]="skill.img" name="img" required minlength="4"
-          maxlength="10" placeholder="Digite su img " #apellido="ngModel">
+        <input type="text" class="form-control" id="img" [(ngModel)]="habilidad.img" name="img" required minlength="4"
+          maxlength="20" placeholder="Digite su img " #img="ngModel">
 
       </div>
 

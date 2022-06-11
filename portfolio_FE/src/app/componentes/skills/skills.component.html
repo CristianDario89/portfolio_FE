@@ -27,7 +27,7 @@
 
         <h3 class="text-center">{{skill.skill}}</h3>
         <div class="wrap-btns">
-          <button class="btnEdu"><i class="fa-solid fa-pen-to-square"></i></button>
+          <button (click)="actualizarHabilidad(skill.id)" class="btnEdu"><i class="fa-solid fa-pen-to-square"></i></button>
           <button  (click)="eliminarHabilidad(skill.id)"  class="btnEdu"><i class="fa-solid fa-trash"></i></button>
         </div>
 

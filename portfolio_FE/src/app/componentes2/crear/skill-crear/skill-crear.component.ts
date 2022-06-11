@@ -8,7 +8,7 @@ import { Skill } from 'src/app/model/skill.model';
   styleUrls: ['./skill-crear.component.css']
 })
 export class SkillCrearComponent implements OnInit {
-  skill: any = new Skill("","");
+  habilidad: any = new Skill("","");
   constructor(public skillservice: skillservice,
               public router: Router) { }
 
@@ -16,7 +16,7 @@ export class SkillCrearComponent implements OnInit {
   }
 
   guardarSkill(){
-    this.skillservice.registrarSkill(this.skill).subscribe(data=>{ 
+    this.skillservice.registrarSkill(this.habilidad).subscribe(data=>{ 
       console.log("Skill AGREGADA: "+ JSON.stringify(data));
       this.volverAlPortfolio();
     }, error => console.log(error)); 
@@ -25,8 +25,7 @@ export class SkillCrearComponent implements OnInit {
   volverAlPortfolio(){
     this.router.navigate(['portfolio']);
   }
-  onSubmit(){
-    console.log(this.skill);
+  onSubmit(){ 
     this.guardarSkill();
   }
 }

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
 import { Skill } from 'src/app/model/skill.model';
 import { skillservice } from 'src/app/servicios/skill.service';
 @Component({
@@ -15,7 +14,7 @@ export class skillsComponent implements OnInit {
 
   ngOnInit(): void {
     this.proyService.obtenerDatos().subscribe(data =>{
-      console.log("Datos skills: "+ JSON.stringify(data));
+      //console.log("Datos skills: "+ JSON.stringify(data));
       this.skillList = data; 
     });
   }
@@ -28,8 +27,12 @@ export class skillsComponent implements OnInit {
   
   eliminarHabilidad(id: number) {
     this.proyService.eliminarSkill(id).subscribe(dato => {
-      console.log(dato);
+      //console.log(dato);
       this.router.navigate(['portfolio']);
     });
+  }
+
+  actualizarHabilidad(id: number) {
+    this.router.navigate(['update-skill', id]);
   }
 }

@@ -11,11 +11,12 @@ import { Router } from '@angular/router';
 export class ProyectoComponent implements OnInit {
   proyectoList: any = new proyecto("", "", "", "", "");
   constructor(private ProyectoService: ProyectoService,
-    public router: Router) { }
+              public router: Router) { }
+
   ngOnInit(): void {
 
     this.ProyectoService.obtenerDatos().subscribe(data => {
-      console.log("Proyectos experiencia: " + JSON.stringify(data));
+      //console.log("Proyectos: " + JSON.stringify(data));
       this.proyectoList = data;
     });
 
@@ -34,4 +35,7 @@ export class ProyectoComponent implements OnInit {
     });
   }
 
+  actualizarProyecto(id: number) {
+    this.router.navigate(['update-proyecto', id]);
+  }
 }
