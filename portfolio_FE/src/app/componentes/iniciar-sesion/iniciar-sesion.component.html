@@ -1,41 +1,43 @@
- <!--
-     <form (ngSubmit)="userLogin()">
-   <div class="mb-3">
-     <label>UserID</label>
-     <input type="text" [(ngModel)]="user.userId" id="userId" name="userId">
-   </div>
-   <div class="mb-3">
-     <label>Pass</label>
-     <input type="password" [(ngModel)]="user.password" id="password" name="password">
-   </div>
- 
-   <button type="submit" class="btn btn-primary">login</button>
- </form>
- 
- -->
  <div class="wrap">
 
-  <div id="MainLogin">
-		<div class="TopLogin">
-			<p> Log In </p>
-		</div>
+<div class="row wrap-todo">
+  <div class="col-sm-9 col-lg-6 wrap-col-form">
 
-		<div class="OuterLogin">
+    <div id="MainLogin">
 
-      <form (ngSubmit)="userLogin()">
-        <label for="userName"> User Name or Email </label>
-        <input  type="text"  [(ngModel)]="user.userId" id="userId" name="userId"
-                required
-                minlength="4"
-                maxlength="20"
-                placeholder="Digite usuario">
+      <div class="TopLogin">
+        <p> Log In </p>
+      </div>
+  
+      <div class="OuterLogin">
+  
+        <form (ngSubmit)="userLogin()">
+          <label for="userName"> Usuario </label>
+          <input  type="text"  [(ngModel)]="user.userId" id="userId" name="userId"
+                  required minlength="4" maxlength="20">
+  
+          <label for="passWord"> Password </label>
+          <input type="password" [(ngModel)]="user.password" id="password" name="password"
+                 required minlength="4" maxlength="20">
+  
+          <input type="submit" name="takeAction" value="Entrar" id="sb">
+        </form>
+      </div>
+  
+    </div>
+  </div>
 
-        <label for="passWord"> Password </label>
-        <input type="password" [(ngModel)]="user.password" id="password" name="password">
+  <div class="col-sm-3 col-lg-6 wrap-mierrorlink">
+    <div class="wrap-linkazo">
+      <h5>Pruebe el siguiente enlace con API local en Angular:</h5>
+      <h1 class="text-center"><a href="https://portfoliofuncional.netlify.app/" target="_blank"> Link funcional</a></h1> 
+      <h6>Han surgido problemas temporales con en enlace de Heroku al moemento de cargar API producida en Springboot.</h6>
+    </div>
+  </div>
 
-        <input type="submit" name="takeAction" value="Log In" id="sb">
-      </form>
-		</div>
-	</div>
+</div>
+
+
+
  </div>
  

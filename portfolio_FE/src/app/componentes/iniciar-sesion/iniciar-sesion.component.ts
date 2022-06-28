@@ -39,7 +39,7 @@ export class IniciarSesionComponent implements OnInit {
     this.loginService.loginUser(this.user).subscribe(data => {
       alert("Login existoso bro");
       this.ruta.navigate(['/portfolio']);
-    }, error => alert("Ingrese datos correctos please"))
+    }, error => alert("Ingrese datos correctos please o pruebe el LINK FUNCIONAL"))
   }
   /*
    get Email(){

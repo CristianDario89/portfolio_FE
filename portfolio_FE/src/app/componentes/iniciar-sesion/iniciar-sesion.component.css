@@ -1,24 +1,30 @@
 .wrap{
-  background: #020202;
+  background-color: black;
   height: 100vh;
-
-  display: flex;justify-content: center; 
+ 
 }
-div#MainLogin {
+.wrap-todo{
+  padding-top: 50px;
+}
+.wrap-col-form{
+  
+   display: flex;justify-content: right;
+}
+div#MainLogin { 
   border-radius: 4px;
-  box-shadow: -5px 4px 1px #fff;
+  box-shadow: -5px 4px 1px tomato;
   overflow: hidden;
-  width: 515px;
+ 
   place-items: center;
-  margin: auto;
+  
   text-align: center;
   display: grid;
   background: linear-gradient(45deg, #22a6b3, #30336b);
-  padding: 15px 5px;
-   
+  
   transform: skew(0deg, -3deg);
-  padding-bottom: 65px;
   transition: transform 0.4s;
+
+  width:400px;padding:20px 10px 30px 10px;
 }
 
 div#MainLogin:hover{
@@ -34,7 +40,6 @@ transform:skew(0deg, 0deg);
   width: 100%;
   padding: 10px 0px;
 }
-
 
 .OuterLogin {
   text-align: left;
@@ -63,4 +68,30 @@ input#sb {
   font-size: 18px;
   font-family: monospace;
   padding: 11px 124px;
+}
+/*------------*/
+.wrap-mierrorlink h6{
+  color:rgb(252, 6, 6);
+} 
+.wrap-mierrorlink h1 a{
+  text-decoration: none;  
+}
+.wrap-linkazo  {
+  text-align:center;
+  margin: 30px;
+  padding:10px;
+  border: 3px solid tomato;
+  background-color: white;
+  width:60%;
+ }
+
+@media (max-width:820px) {
+  .wrap-col-form{
+   justify-content: center;
+ }
+ .wrap-linkazo  {
+
+  width:70%;
+  margin: 30px auto;
+ }
 }
