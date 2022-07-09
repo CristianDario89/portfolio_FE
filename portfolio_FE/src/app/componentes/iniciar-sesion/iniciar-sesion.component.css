@@ -4,7 +4,7 @@
  
 }
 .wrap-todo{
-  padding-top: 50px;
+  padding-top: 150px;
 }
 .wrap-col-form{
   
@@ -106,6 +106,9 @@ input#sb {
  }
 
 @media (max-width:820px) {
+  .wrap-todo{
+    padding-top: 40px;
+  }
   .wrap-col-form{
    justify-content: center;
  }
