@@ -6,7 +6,8 @@ import { User } from '../model/user.model';
   providedIn: 'root'
 })
 export class LoginService {
-  URL: string = "http://localhost:8090/login"
+  URL: string = "https://portfolio-fe.netlify.app/iniciar-sesion"
+ /* URL: string = "http://localhost:8090/login"*/
   constructor(private http: HttpClient) { }
 
   loginUser(user: User): Observable<object> {
