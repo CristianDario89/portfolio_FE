@@ -2,16 +2,13 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { experiencia } from '../model/experiencia.model';
-import { environment } from '../../../src/environments/environment';
+import { URLBack } from 'src/app/server';
 @Injectable({
   providedIn: 'root'
 })
 
 export class ExperienciaService {
-  /*URL: string = "http://localhost:8090/experiencia/"*/
-
-  URL: string = environment.baseUrl;
-
+  URL: string = `${URLBack}/api/`;
   constructor(private http: HttpClient) { }
 
   obtenerDatos(): Observable<experiencia> {

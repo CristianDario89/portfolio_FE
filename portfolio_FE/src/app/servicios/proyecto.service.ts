@@ -2,12 +2,12 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { proyecto } from '../model/proyecto.model';
-import { environment } from '../../../src/environments/environment';
+import { URLBack } from 'src/app/server';
 @Injectable({
   providedIn: 'root'
 })
 export class ProyectoService {
-  URL: string = environment.baseUrl;
+   URL: string = `${URLBack}/api/`;
   constructor(private http: HttpClient) { }
 
   obtenerDatos(): Observable<proyecto> {

@@ -1,14 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { educacion } from '../model/educacion.model';
-import { environment } from '../../../src/environments/environment';
-
+import { educacion } from '../model/educacion.model'; 
+import { URLBack } from 'src/app/server';
 @Injectable({
   providedIn: 'root'
 })
 export class EducacionService {
-  URL: string = environment.baseUrl;
+  URL: string = `${URLBack}/api/`;
 
   constructor(private http: HttpClient) { }
 
