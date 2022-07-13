@@ -27,6 +27,11 @@ import { SkillCrearComponent } from './componentes2/crear/skill-crear/skill-crea
 import { ProyEditComponent } from './componentes2/edit/proy-edit/proy-edit.component';
 import { ExpEditComponent } from './componentes2/edit/exp-edit/exp-edit.component';
 import { SkillEditComponent } from './componentes2/edit/skill-edit/skill-edit.component';
+
+import { EducacionService } from './servicios/educacion.service';
+import { ExperienciaService } from './servicios/experiencia.service';
+import { ProyectoService } from './servicios/proyecto.service';
+import { skillservice } from './servicios/skill.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,6 +62,7 @@ import { SkillEditComponent } from './componentes2/edit/skill-edit/skill-edit.co
     NgCircleProgressModule.forRoot({})
   ],
   providers: [PortfolioService,
+    EducacionService,ExperienciaService,ProyectoService, skillservice,
     {provide: HTTP_INTERCEPTORS, useClass:InterceptorService, multi: true}
 
   ],
