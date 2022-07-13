@@ -2,12 +2,12 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { User } from '../model/user.model';
-import { URLBack } from 'src/app/server';
+import { URLBack2 } from 'src/app/server';
 @Injectable({
   providedIn: 'root'
 })
 export class LoginService {
-  URL: string = `${URLBack}/api/login/`;
+  URL: string = `${URLBack2}/api/login/`;
   constructor(private http: HttpClient) { }
 
   loginUser(user: User): Observable<object> {
