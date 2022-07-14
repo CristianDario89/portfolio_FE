@@ -1,3 +1,3 @@
-export const URLBack: any = 'http://localhost:8090';
+export const URLBack2: any = 'http://localhost:8090';
 
-export const URLBack2: any = 'https://backend-portfolio-romero.herokuapp.com';
+export const URLBack: any = 'https://backend-portfolio-romero.herokuapp.com';
