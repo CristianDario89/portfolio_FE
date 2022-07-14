@@ -14,8 +14,7 @@ export class ExperienciaComponent implements OnInit {
               public router: Router) { }
 
   ngOnInit(): void {
-    this.expService.obtenerDatos().subscribe(data => {
-      //console.log("Datos experiencia: " + JSON.stringify(data));
+    this.expService.obtenerDatos().subscribe(data => { 
       this.experienciaList = data;
     });
   }

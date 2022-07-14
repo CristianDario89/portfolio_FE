@@ -16,7 +16,7 @@ export class EncabezadoComponent implements OnInit {
 
   ngOnInit(): void {
     this.personaService.obtenerDatos().subscribe(data => {//metodo q escuche siempre  q el observable haga un cambio
-      console.log("Datos personales" + JSON.stringify(data));
+   //   console.log("Datos personales" + JSON.stringify(data));
       this.persona = data;
     });
 

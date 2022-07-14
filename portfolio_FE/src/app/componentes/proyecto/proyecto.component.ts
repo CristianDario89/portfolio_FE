@@ -16,7 +16,6 @@ export class ProyectoComponent implements OnInit {
   ngOnInit(): void {
 
     this.ProyectoService.obtenerDatos().subscribe(data => {
-      //console.log("Proyectos: " + JSON.stringify(data));
       this.proyectoList = data;
     });
 
