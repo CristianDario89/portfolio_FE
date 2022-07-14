@@ -11,7 +11,7 @@ export class LoginService {
   constructor(private http: HttpClient) { }
 
   loginUser(user: User): Observable<object> {
-    console.log(user);
+    console.log("login service has detected: ",user);
     return this.http.post(this.URL, user);
   }
 }

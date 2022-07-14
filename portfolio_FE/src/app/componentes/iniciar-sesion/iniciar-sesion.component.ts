@@ -34,10 +34,10 @@ export class IniciarSesionComponent implements OnInit {
   ngOnInit(): void {
   }
   userLogin() {
-    console.log(this.user);
+    console.log("login component has detected a user: ",this.user);
 
     this.loginService.loginUser(this.user).subscribe(data => {
-      alert("Login existoso bro");
+      alert("Login existoso");
       this.ruta.navigate(['/portfolio']);
     }, error => alert("Ingrese datos correctos please o pruebe el LINK SUPER FUNCIONAL"))
   }
